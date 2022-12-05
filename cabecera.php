@@ -19,8 +19,8 @@
 
   <?php
 
-  /* Checking if the session is set and if it is, it will count the number of items in the session. If it
-  is not set, it will set the number of items to 0. */
+  /* Al verificar si la sesión está configurada y, si lo está, contará la cantidad de elementos en la sesión. Si se
+  no está configurado, establecerá el número de elementos en 0. */
   if(isset($_SESSION['reserva'])){
     $numeroCarrito = count($_SESSION['reserva']);
   }else{
